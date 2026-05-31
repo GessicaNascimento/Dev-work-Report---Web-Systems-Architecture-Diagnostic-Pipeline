@@ -2,7 +2,7 @@
 
 # Dev. Work Report
 
-## Project: Web Systems Architecture & Diagnostic Pipeline (P2)
+## Project: Web Systems Architecture & Diagnostic Pipeline 
 
 ### Goal
 Document technical errors, debugging strategies, repository organization, deployment workflow, and lessons learned during the development, execution, and troubleshooting of local web applications.
