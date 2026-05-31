@@ -82,4 +82,86 @@ The application needed to dynamically capture state parameters from user selecti
 ### Cause
 Improper form encapsulation or lack of strict variable isolation causes selection pools to overlap. For instance, if `<input type="radio">` tags do not share an isolated scope or precise selector bindings, the execution thread cannot determine the checked status during interaction.
 
-###
+### Solution
+Grouped selection components strictly inside explicit `<fieldset>` containers sharing unified `name="conversao"` attributes to force single-choice exclusivity at the browser engine level. Used precise runtime queries (`document.querySelector('input[name="conversao"]:checked').value`) coupled with native string cleanups (`.trim().toUpperCase()`) to capture form inputs perfectly before submitting them to logic evaluations.
+
+### Learning
+* Form grouping mechanisms inside the HTML5 DOM scope.
+* Real-time target selection parsing via query selector filtering attributes (`:checked`).
+* Input string hygiene processing methods to prevent human error during input collection.
+
+### Improvement
+* Implement string normalizers and hard name constraints on form structures to keep code resilient against varied human data entries.
+
+---
+
+## STEP 5 — Algorithmic Processing and Data Serialization Failures
+
+### Problem
+Complex logic branches (such as progressive salary updates or cross-unit thermodynamic conversions) faced value precision loss or failed to render outputs with the strict font, size, and styling metrics requested by project stakeholders.
+
+### Cause
+Data formatting pipelines frequently suffer from data-type mismatches, such as passing raw floating-point numbers into text blocks or failing to bind specific typographic classes to output blocks (`<span>`, `<div>`) after string processing loops.
+
+### Solution
+Configured precise type formatting rules by running target rounding operations (`.toFixed(2)`) and localized currency serializers (`.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })`). Bound these values to dedicated, pre-styled interface classes (such as `.texto-formatado`), instantly injecting results into target nodes while enforcing type safety and styling boundaries.
+
+### Learning
+* Floating-point precision management via native formatting APIs.
+* Localized formatting pipelines for enterprise-ready internationalization presentation.
+* Proper DOM node insertion techniques to preserve design definitions.
+
+### Improvement
+* Ensure output components are decoupled from calculations by establishing rigid presentation stylesheets before writing calculation scripts.
+
+---
+
+## Workflow Structure
+
+The web applications engineering pipeline strictly follows this structural sequence:
+
+[Data Ingestion / Input] ➡️ [Sanitization & Normalization] ➡️ [Algorithmic Processing] ➡️ [Dynamic DOM Injection & Style Rendering]
+
+
+* **Data Ingestion / Input:** Captures raw input values, radio component states, and text strings from dedicated form fields.
+* **Sanitization & Normalization:** Employs `.trim().toUpperCase()` logic routines to eliminate input whitespace anomalies and bypass case-sensitivity constraints.
+* **Algorithmic Processing:** Runs computations through conditional matrices (`switch`, `if/else`) and power-of-10 conversions to establish base units.
+* **Dynamic DOM Injection & Style Rendering:** Outputs the processed data directly into designated target blocks (`<span>`, `<div>`), activating real-time visual transitions.
+
+---
+
+## Technical Reflection
+
+The debugging, refactoring, and local server deployment process reinforced:
+* **Workflow Organization:** Separating logic, layout styles, and semantic files guarantees high maintenance scalability.
+* **Troubleshooting Methodology:** Performing root cause analysis on operating system file maps and hidden byte strings accelerates structural problem resolution.
+* **Repository Management:** Maintaining clean local work directories prevents cross-contamination of metadata.
+* **Persistence During Technical Failures:** Debugging silent execution breaks builds critical resiliency when interacting with development server runtimes.
+* **Adaptive Problem-Solving Strategies:** Developing fallback plans for unexpected system behaviors isolates software bugs from global hardware errors.
+
+The project also improved understanding of:
+* **Git Workflows & Version Control:** Version tracking helps isolate safe source branches from breaking environment modifications.
+* **Authentication Systems:** Transitioning securely from open tokens to private SSH key configurations isolates workspace access vectors.
+* **Data Processing Pipelines:** Implementing clean input validation routines prevents bad data states from breaking mathematical logic.
+* **Debugging Logic:** Analyzing execution logs from browser devtools enables quick identification of silent failures.
+* **Deployment Organization:** Packaging production-ready scripts separately from staging playgrounds optimizes asset load times across server hosts.
+
+---
+
+**Author:** Géssica Nascimento  
+**Title:** Systems Analysis & Development Student  
+**Date:** 28/05/2026
+
+
+
+
+
+
+
+
+
+
+
+## Workflow Structure
+
+The web applications engineering pipeline strictly follows this structural sequence:
