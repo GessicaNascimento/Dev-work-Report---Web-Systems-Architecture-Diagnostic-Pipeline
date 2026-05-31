@@ -152,16 +152,3 @@ The project also improved understanding of:
 **Title:** Systems Analysis & Development Student  
 **Date:** 28/05/2026
 
-
-
-
-
-
-
-
-
-
-
-## Workflow Structure
-
-The web applications engineering pipeline strictly follows this structural sequence:
